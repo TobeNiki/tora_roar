@@ -1,0 +1,12 @@
+version: '3'
+services:
+  tora_roar:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: tora_roar
+    working_dir: /root/
+    tty: true
+    volumes:
+      - ./audio:/root/audio/
+    
