@@ -1,1 +1,5 @@
 git+https://github.com/openai/whisper.git
+pydub
+py-cord
+pyyaml
+PyNaCl

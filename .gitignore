@@ -1,0 +1,7 @@
+.cache
+*.mp3
+*.wav
+*.srt
+*.txt
+*.vtt
+__pycache__
